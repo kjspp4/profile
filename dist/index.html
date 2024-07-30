@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이력서</title>
+  <!-- Tailwind Output CSS -->
+  <link rel="stylesheet" href="css/output.css">
+  <!-- <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style> -->
+</head>
+<body>
+
+  <div>
+    <section class="intro bg-[#F2F2F2]" id="introduction">
+      <div class="content-area flex justify-between md:flex-row flex-col py-4">
+        <div>
+          <h2 class="font-raleway md:text-[42px] text-[28px] font-bold leading-[1em] tracking-[-2px]"><br>이력서</h2>
+          <h1 class="font-raleway md:text-[76px] text-[38px] font-bold text-deeporange tracking-[-2px] md:my-10 my-5">Front-End Developer</h1>
+          <div class="md:max-w-[420px] w-full">
+            <ul class="font-montserrat [&>li]:flex [&>li]:justify-between [&>li]:py-1 [&>li>b]:w-[120px] [&>li>span]:flex-1">
+              <li><b>이름</b><span>김종민</span></li>
+              <li><b>생년월일</b><span>1978.04.15</span></li>
+              <li><b>학력</b><span>전주대 컴퓨터 공학과 </span></li>
+              <li><b>병역</b><span>육군병장 만기제대</span></li>
+              <li><b>핸드폰</b><span>010-4054-4278</span></li>
+              <li><b>이메일</b><span>kjspp4@gmail.com</span></li>
+              <li><b>주소</b><span>인천 부평구 부평대로 부평제이타워 3차</span></li>
+              <li>
+                <b>SOCHIAL</b>
+                <span class="[&>a:hover]:text-deepgreen [&>a]:mx-1">
+                  <a href="https://github.com/kjspp4"><i class="bi bi-github"></i></a>
+                  
+                </span>
+              </li>
+            </ul>
+            <div class="flex gap-5 mt-10">
+              
+              <button class="bg-white uppercase rounded-sm flex-1 p-3 text-[14px] hover:shadow-xl transition-all duration-300">download resume</button>
+            </div>
+          </div>
+        </div>
+        <picture class="md:order-last order-first">
+          <div class="rounded-full">
+            <img src="images/JK_GG.jpg" class="size-[100px] border-black-500 rounded-full shadow-lg" alt="kjm thum">
+          </div>
+        </picture>
+     
+      </div>
+    </section>
+    <section class="skills border-b-2 border-deepgreen/20">
+      <div class="content-area flex gap-10 md:flex-row flex-col">
+        <div class="md:basis-[400px]">
+          <div class="section-title">
+            <h2>Skills</h2>
+            <p>
+              저의 다양한 스킬을 통해 멋진 프로젝트를 만들고 또한 열정을 갖고 있는 사람들과 함께 하면서 더욱 멋진 프로젝트 완성을 위한 영감을 받습니다.
+            </p>
+          </div>
+        </div>
+        <div class="flex-1">
+          <div class="flex gap-5 md:flex-row flex-col">
+            <div class="flex-1 border-b-2 border-linecolor py-5">
+              <h4 class="text-[20px] font-bold">Frontend Development</h4>
+              <p class="text-silverblack">
+                HTML, CSS,  Tailwind CSS, Bootstrap, React , Vuejs, Nodejs , Nuxtjs , Javascript, Asp.Net MVC c# 
+              </p>
+            </div>
+            <div class="flex-1 border-b-2 border-linecolor py-5">
+              <h4 class="text-[20px] font-bold"> Development</h4>
+              <p class="text-silverblack">
+                  WPF, WinForm, JAVA, Spring Boot , JPA , Spring Batch , Spring Cloud, Node.js, MySql, Redis, PostgreSQL, MsSql
+              </p>
+            </div>
+          </div>
+       
+            <div class="flex-1 py-5">
+              <h4 class="text-[20px] font-bold">CI/CD</h4>
+              <p class="text-silverblack">
+                 원도우 서버 , 우분투, 도커 , 젠킨스 구축 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <section class="frontend-projects border-b-2 border-deepgreen/20">
+      <div class="content-area">
+        <div class="section-title mb-4">
+          <h2>Projects</h2>
+        </div>
+        <div class="grid md:grid-cols-4 grid-cols-2 gap-6">
+          <div class="project-desc">
+            <div>
+              <img src="images/project-t-01.png" alt="Project Thum">
+            </div>
+            <div>
+              <h5>쇼핑몰 연동 솔루션 개발  </h5>
+              <span class="block"> <b> 적용기술 </b>:  크롤링 , 셀레니움 크롤링, 피들러 , http  파싱, jsoup , restApi</span>
+              <span class="block"> <b> 사용언어 </b> :  JAVA Swing , Mysql  , InnoSetup  </span>
+              <span class="block"> <b> 역활 </b>:  프로그램 구조 공통 및 UI, Spring boot rest api 개발  , 스프링 시큐리티 jwt 토큰 
+                , spring batch  백그라운드 서비스 개발 쇼핑몰 카테고리 가져오는   </span>
+            </div>
+          </div>
+
+
+          <div class="project-desc">
+            <div>
+              <img src="images/project-t-02.png" alt="Project Thum">
+            </div>
+            <div>
+              <h5>POP 운영 시스템  </h5>
+              <span class="block"> <b> 설명 </b>:  
+                POP 운영 시스템은 생산현장의 정보를 쉽고 편리하게 최적의 분류를 가능하게 하는 신뢰할 수 있는 시스템이며, 업무 계획관리 시스템(MES)과 제조현장의 SCADA/DCS/HMI 등의 제어시스템을 관리하는 시스템의 중간계층에 
+                자리하고 있는 시스템으로 제조현장의 전반에 걸친 통합화 및 최적화된 생산활동을 지원할 수 있도록 합니다.</span>
+              <span class="block"> <b> 적용기술 </b>:  c# winform , net core6  background service , plc mx 컴포넌트, mssql</span>
+              <span class="block"> <b> 역활 </b>:  프로그램 구조 공통 및 UI   </span>
+            </div>
+          </div>
+
+
+
+          <div class="project-desc">
+            <div>
+              <img src="images/project-t-03.png" alt="Project Thum">
+            </div>
+            <div>
+              <h5>생산/물류 운영 시스템 </h5>
+              <span class="block"> <b> 설명 </b>:  
+                
+생산 로봇, 운송 AGV, 자동검사, 자동화 창고 등과 연동하여 최적의 자동화 창고 시스템을 제공합니다.</span>
+              <span class="block"> <b> 적용기술 </b>:  c# wpf,reactive ui , mvvm , net core6  background service , plc mx 컴포넌트,mssql</span>
+              <span class="block"> <b> 역활 </b>:  프로그램 구조 공통 및 UI  </span>
+            </div>
+          </div>
+
+
+
+
+
+
+        
+    </section>
+    <section class="feedback">
+      <div class="content-area flex gap-10 md:flex-row flex-col">
+        
+        <div class="flex-1 [&>div]:border-b-2 [&>div]:border-linecolor [&>div:last-child]:border-none [&>div]:py-2 pt-4">
+          <div class="flex gap-4">
+            
+            <div class="at-title">
+              <h4> <em>자기소개서</em></h4>
+              <p>
+                <q>문제를 도전으로 여기고 창의적이면서도 적절한 해결책을 찾는 것을 즐깁니다. </br>
+                   스스로 해결책을 찾을 수 있지만 그룹과 협력하여 문제를 해결하는 것도 잘합니다. </br>
+                   대부분의 업무를 잘 수행하고 작업 결과를 확인하는 습관이 있습니다.</br>
+                   항상 도전하고 성실하게 일할수 있습니다. </br> 
+                   다른 영역에서는 아직 최고 수준을 달성하지 못했지만 꾸준히 하는 근성도 있습니다. </br>
+                   
+                  </q>
+              </p>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+          
+    </section>
+    <footer class="bg-[#EFEFEF] text-center p-2">
+      <p>Copyright 2024 김종민</p>
+    </footer>
+  </div>
+
+  <a class="fixed right-8 bottom-8 size-[40px] border border-gray-200 rounded-md shadow-lg bg-white text-center" href="#introduction">
+    <i class="bi bi-arrow-bar-up"></i>
+    <span class="block text-[10px] uppercase translate-y-[-10px]">top</span>
+  </a>
+  
+</body>
+</html>
